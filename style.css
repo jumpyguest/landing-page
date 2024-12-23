@@ -1,0 +1,136 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #1f2937;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    padding: 0;
+    margin: 0;
+    gap: 32px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+    width: 450px;
+    margin-bottom: 16px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 164px;
+}
+
+.main-text {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    width: 360px;
+}
+
+.header-container {
+    display: flex;
+    padding: 48px 164px;
+    /* justify-content: */
+    /* margin: auto; */
+    /* gap: 32px; */
+}
+
+.header-right {
+    color: #e5e7eb;
+    width: 50%;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.header-left {
+    width: 50%;
+}
+
+button {
+    background-color: #3882f6;
+    border-radius: 6px;
+    border: none;
+    padding: 8px 32px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.info-header-text {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    text-align: center;
+    padding: 32px 0px;
+}
+
+.images-section {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 0 200px 48px;
+    gap: 125px;
+}
+
+img {
+    width: 125px;
+    height: 125px;
+    border: 4px solid #3882f6;
+    border-radius: 10px;
+}
+
+.media {
+    max-width: 125px;
+}
+
+.description {
+    text-align: center;
+    /* font-size: 14px; */
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 80px 250px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    /* width: 800px; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.author {
+    font-weight: bold;
+    align-self: flex-end;
+    font-size: 24px;
+    padding: 16px;
+}
