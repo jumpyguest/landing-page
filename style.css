@@ -136,7 +136,7 @@ button {
     background-color: #e5e7eb;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
+    /* justify-content: space-around; */
     /* align-items: center; */
     padding: 70px 500px;
 }
@@ -147,8 +147,10 @@ button {
     /* width: 800px; */
     /* justify-content: center; */
     /* align-items: center; */
+    /* padding: 70px 500px; */
     font-style: italic;
     font-weight: lighter;
+    align-self: flex-start;
 }
 
 .author {
